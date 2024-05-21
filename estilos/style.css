@@ -42,3 +42,18 @@ main{
     border-radius: 2px;
     background-size: cover;
 }
+#redes-sociais{
+    text-align: right;
+}
+#redes-sociais > a > img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    box-sizing: border-box;
+}
+#redes-sociais img:hover{
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform .4s, box-shadow .6s
+}
